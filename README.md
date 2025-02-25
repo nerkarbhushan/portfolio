@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# portfolio
-=======
 <img src="https://github.com/nerkarbhushan/nerkarbhushan/blob/main/programmer.jpg" alt="logo" width="1080" height="480">
 
 <h1 align="center">Hi 👋, I'm Bhushan Nerkar</h1>
@@ -87,4 +84,4 @@
 <p><img align="center" src="https://github-readme-stats.vercel.app/api?username=nerkarbhushan&show_icons=true&locale=en" alt="nerkarbhushan" width="500" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=nerkarbhushan&" alt="nerkarbhushan" width="500" /></p>
->>>>>>> bb9fad86 (portfolio)
+
