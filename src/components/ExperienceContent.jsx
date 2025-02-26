@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 import React from "react";
-import { motion, useAnimation, useInView } from "motion/react";
+import { motion, useAnimation, useInView } from "framer-motion";
 
 const ExperienceContent = ({
   company,
@@ -33,40 +33,46 @@ const ExperienceContent = ({
       animate={animationControl}
       transition={{
         duration: 0.25,
-        y: { type: "spring", visualDuration: 0.3, bounce: 0.25 },
+        y: { type: "spring", bounce: 0.25 },
       }}
-      className="mb-10 ml-4 md:ml-12 px-6 py-3 border-slate-200 border-b-4 bg-gradient-to-b from-slate-900 rounded-md"
+      className="relative flex flex-col md:flex-row gap-4 items-start md:items-center bg-gradient-to-b from-slate-900 border-b-4 border-slate-200 p-6 rounded-lg shadow-lg w-full max-w-4xl mx-auto"
     >
-      <span className="absolute -left-4 md:-left-8 flex items-center justify-center size-[30px] md:size-[60px] rounded-full ring-4 md:ring-8 ring-gray-900 bg-blue-900 overflow-hidden">
+      {/* Logo */}
+      <div className="relative flex-shrink-0 w-14 h-14 md:w-20 md:h-20 rounded-full ring-4 md:ring-8 ring-gray-900 bg-blue-900 flex items-center justify-center overflow-hidden">
         <Image
           height={100}
           width={100}
           src={`/assets/${logo}.webp`}
           alt={`${logo}-logo`}
-          className="object-contain"
+          className="object-contain w-full h-full"
         />
-      </span>
-      <h3 className="flex items-center mb-1 text-lg md:text-xl font-semibold text-white">
-        {designation}{" "}
-        {isCurrent && (
-          <span className="text-sm font-medium me-2 px-2.5 py-0.5 rounded bg-green-900 text-green-300 ms-3">
-            Current
-          </span>
-        )}
-      </h3>
-      <span className="block mb-2 text-sm md:text-md font-normal leading-none text-gray-300">
-        {company}
-      </span>
-      <time className="block mb-2 text-xs md:text-sm font-light leading-none text-blue-500">
-        {tenure} | {location}
-      </time>
-      <ul className="mb-4 text-xs md:text-base font-normal text-gray-400 list-disc">
-        {description.map((data, i) => (
-          <li className="mb-2 ml-4" key={i}>
-            {data}
-          </li>
-        ))}
-      </ul>
+      </div>
+
+      {/* Content */}
+      <div className="flex-1 space-y-2 text-center md:text-left">
+        <h3 className="text-lg md:text-xl font-semibold text-white flex items-center justify-center md:justify-start">
+          {designation}
+          {isCurrent && (
+            <span className="ml-3 px-2.5 py-0.5 rounded bg-green-900 text-green-300 text-sm font-medium">
+              Current
+            </span>
+          )}
+        </h3>
+
+        <span className="block text-sm md:text-md text-gray-300 font-normal">
+          {company}
+        </span>
+
+        <time className="block text-xs md:text-sm text-blue-500 font-light">
+          {tenure} | {location}
+        </time>
+
+        <ul className="list-disc text-xs md:text-base text-gray-400 ml-5 space-y-2">
+          {description.map((data, i) => (
+            <li key={i}>{data}</li>
+          ))}
+        </ul>
+      </div>
     </motion.li>
   );
 };
