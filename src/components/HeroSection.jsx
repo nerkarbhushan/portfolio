@@ -74,7 +74,11 @@ const HeroSection = () => {
               />
             </span>
           </h1>
-          <p className="text-[#ADB7BE] text-sm lg:text-xl mb-6 sm:px-10 sm:py-4 md:px-10 md:py-4 lg:px-6 lg:py-4">
+
+          <p
+            className="text-[#ADB7BE] text-sm sm:text-sm md:text-base lg:text-lg xl:text-xl 
+   mb-4 sm:mb-6 px-10 sm:px-6 md:px-10 lg:px-6 py-2 sm:py-4"
+          >
             From frontend finesse to backend brilliance — crafting powerful
             digital experiences that solve real-world challenges..!!
           </p>
