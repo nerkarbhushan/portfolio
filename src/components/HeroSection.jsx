@@ -53,7 +53,7 @@ const HeroSection = () => {
           }}
           className="col-span-8 place-self-center place-items-start gap-4"
         >
-          <h1 className="mb-2 lg:mb-4 font-extrabold">
+          <h1 className="mb-2 mx-10 lg:mb-4 font-extrabold">
             <span className="text-transparent text-3xl md:text-4xl lg:text-5xl xl:text-7xl bg-clip-text bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 ">
               Hi there <span className="text-white">👋</span> I&apos;m{" "}
             </span>
@@ -74,18 +74,19 @@ const HeroSection = () => {
               />
             </span>
           </h1>
-          <p className="text-[#ADB7BE] text-sm lg:text-xl mb-6">
+          <p className="text-[#ADB7BE] text-sm lg:text-xl mb-6 sm:px-10 sm:py-4 md:px-10 md:py-4 lg:px-6 lg:py-4">
             From frontend finesse to backend brilliance — crafting powerful
             digital experiences that solve real-world challenges..!!
           </p>
-          <div className="flex">
+
+          <div className="flex px-10">
             <a
               href={links.resume}
               target="_blank"
               aria-label="resume"
               className="bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white px-6 py-3 rounded-full mr-4"
             >
-              <span className="flex align-middle gap-2">
+              <span className="flex align-middle gap-2 ">
                 Resume <CloudArrowDownIcon className="size-5" />
               </span>
             </a>
@@ -135,7 +136,6 @@ const HeroSection = () => {
                   </svg>
                 </span>
               </a>
-
               <a
                 href="mailto:nerkarbhushan.b@gmail.com"
                 target="_blank"
@@ -168,7 +168,6 @@ const HeroSection = () => {
                   </svg>
                 </span>
               </a>
-
               <a
                 href={links.leetcode}
                 target="_blank"
@@ -206,7 +205,6 @@ const HeroSection = () => {
                   </svg>
                 </span>
               </a>
-
               <a
                 href="tel:+918806644745"
                 target="_blank"
@@ -247,7 +245,6 @@ const HeroSection = () => {
                   </svg>
                 </span>
               </a>
-
               <a
                 href="https://instagram.com/nerkarbhushan.4572"
                 target="_blank"
