@@ -8,25 +8,16 @@ import { motion } from "motion/react";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-[95vh] flex flex-col justify-evenly">
-      <div className="grid grid-cols-1 lg:grid-cols-12 my-4 h-[100%]">
+    <section className="min-h-[95vh] flex flex-col justify-evenly items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 my-4 h-full items-center">
         <motion.div
-          className="col-span-4 place-self-center mt-4 lg:mt-0 lg:order-1"
-          initial={{
-            opacity: 0,
-            x: "100%",
-          }}
-          animate={{
-            opacity: 1,
-            x: 0,
-          }}
-          transition={{
-            duration: 0.4,
-            x: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
-          }}
+          className="col-span-4 flex justify-center lg:order-1"
+          initial={{ opacity: 0, x: "100%" }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.4, x: { type: "spring", bounce: 0.5 } }}
         >
-          <div className="rounded-full bg-transparent relative w-[200px] h-[200px] lg:w-[350px] lg:h-[350px] overflow-hidden mb-6">
-            <div className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 w-[150px] h-[150px] lg:w-[250px] lg:h-[250px] absolute transform -translate-x-1/2 translate-y-1/3 left-1/2 rounded-full blur-[20px]"></div>
+          <div className="relative w-[200px] h-[200px] lg:w-[350px] lg:h-[350px] rounded-full overflow-hidden">
+            <div className="absolute w-[150px] h-[150px] lg:w-[250px] lg:h-[250px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 left-1/2 transform -translate-x-1/2 translate-y-1/3 rounded-full blur-[20px]"></div>
 
             <Image
               loading="eager"
@@ -39,22 +30,13 @@ const HeroSection = () => {
           </div>
         </motion.div>
         <motion.div
-          initial={{
-            opacity: 0,
-            x: "-100%",
-          }}
-          animate={{
-            opacity: 1,
-            x: 0,
-          }}
-          transition={{
-            duration: 0.4,
-            x: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
-          }}
-          className="col-span-8 place-self-center place-items-start gap-4"
+          initial={{ opacity: 0, x: "-100%" }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.4, x: { type: "spring", bounce: 0.5 } }}
+          className="col-span-8 flex flex-col items-center text-center md:text-left"
         >
-          <h1 className="mb-2 mx-10 lg:mb-4 font-extrabold">
-            <span className="text-transparent text-3xl md:text-4xl lg:text-5xl xl:text-7xl bg-clip-text bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 ">
+          <h1 className="mb-4 font-extrabold max-w-[90%] md:max-w-[80%] lg:max-w-[60%]">
+            <span className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl bg-clip-text bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 text-transparent">
               Hi there <span className="text-white">👋</span> I&apos;m{" "}
             </span>
             <br />
@@ -75,15 +57,12 @@ const HeroSection = () => {
             </span>
           </h1>
 
-          <p
-            className="text-[#ADB7BE] text-sm sm:text-sm md:text-base lg:text-lg xl:text-xl 
-   mb-4 sm:mb-6 px-10 sm:px-6 md:px-10 lg:px-6 py-2 sm:py-4"
-          >
+          <p className="text-[#ADB7BE] text-base lg:text-lg xl:text-xl max-w-[90%] sm:max-w-[80%] md:max-w-[70%] lg:max-w-[60%] mb-6">
             From frontend finesse to backend brilliance — crafting powerful
             digital experiences that solve real-world challenges..!!
           </p>
 
-          <div className="flex px-10">
+          <div className="flex flex-wrap justify-center gap-2">
             <a
               href={links.resume}
               target="_blank"
