@@ -8,7 +8,7 @@
  
 - 🔭 I’m currently working on **Service based projects**
 - 🌱 I’m currently learning **deployment of MERN applications on Azure**
-- 🤝 I’m looking for help with **deploying applications on Azure**
+- 🤝 I’m looking for help with **deploying applications on AWS**
 - 💬 Ask me about **Frontend, Backend, JavaScript, React.js, Node.js, Express.js, MongoDB, etc**
 - 📫 How to reach me **nerkarbhushan.b@gmail.com**
 - ⚡ Fun fact **I love playing chess and cricket**
