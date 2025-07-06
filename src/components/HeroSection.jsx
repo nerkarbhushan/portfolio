@@ -40,7 +40,7 @@ const HeroSection = () => {
               Hi there <span className="text-white">👋</span> I&apos;m{" "}
             </span>
             <br />
-            <span className="text-3xl md:text-4xl lg:text-6xl xl:text-7xl text-white">
+            <span className="text-xl md:text-4xl lg:text-6xl xl:text-7xl text-white">
               <TypeAnimation
                 sequence={[
                   "Bhushan Nerkar",
