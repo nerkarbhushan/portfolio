@@ -1,6 +1,6 @@
 export const links = {
   resume:
-    "https://drive.google.com/file/d/1wXOl08CATmCMuPkofJNv3TWzK3JMzyhv/view?usp=sharing",
+    "https://drive.google.com/file/d/1gVXGLlOcHDORwr_tFeSuS_aXddA57N_V/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/nerkar-bhushan-bapurao/",
   github: "https://github.com/nerkarbhushan",
   leetcode: "https://leetcode.com/u/nerkarbhushan_b/",
