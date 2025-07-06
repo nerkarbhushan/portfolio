@@ -1,10 +1,10 @@
 export const headerSummaryStats = [
   {
-    number: 2.6,
+    number: 3,
     text: "Years of Experience",
   },
   {
-    number: 5,
+    number: 10,
     text: "Github Repos",
   },
 
