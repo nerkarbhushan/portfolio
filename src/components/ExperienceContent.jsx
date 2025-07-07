@@ -35,7 +35,7 @@ const ExperienceContent = ({
         duration: 0.25,
         y: { type: "spring", bounce: 0.25 },
       }}
-      className="relative flex flex-col md:flex-row gap-4 items-start md:items-center bg-gradient-to-b from-slate-900 border-b-4 border-slate-200 p-6 rounded-lg shadow-lg w-full max-w-4xl mx-auto"
+      className="relative flex flex-col md:flex-row gap-4 items-start md:items-center bg-gradient-to-b from-slate-900 border-b-4 border-slate-200 p-6 rounded-lg shadow-lg w-full max-w-8xl mx-auto"
     >
       {/* Logo */}
       <div className="relative flex-shrink-0 w-14 h-14 md:w-20 md:h-20 rounded-full ring-4 md:ring-8 ring-gray-900 bg-blue-900 flex items-center justify-center overflow-hidden">
