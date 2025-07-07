@@ -8,7 +8,7 @@ const ExperienceSection = () => {
   return (
     <section id='experience' className='scroll-mt-[80px]'>
       <SectionHead>My Experience</SectionHead>
-      <ol className="relative border-s border-gray-700 mx-auto w-auto md:w-3/4 lg:w-2/3">
+     <ol className="relative border-s border-gray-700 mx-auto w-full md:w-full lg:w-full">
         {experiences.map((e) => (
           <ExperienceContent
             key={e.id}
