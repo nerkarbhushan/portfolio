@@ -60,7 +60,7 @@ const AboutSection = () => {
             <TextHighlight>RESTful & GraphQL APIs</TextHighlight>, real-time
             apps using
             <TextHighlight> Socket.io</TextHighlight>, and secure auth via{" "}
-            <TextHighlight> JWT & OAuth</TextHighlight>. I've worked with
+            <TextHighlight> JWT & OAuth</TextHighlight>. I&apos;ve worked with
             <TextHighlight>
               {" "}
               microservices, Redis, Docker, Kubernetes, AWS
@@ -74,7 +74,7 @@ const AboutSection = () => {
             <TextHighlight> problem-solving, debugging</TextHighlight>, and
             exploring
             <TextHighlight> emerging tech</TextHighlight> like{" "}
-            <TextHighlight> Generative AI</TextHighlight>. When I'm not coding,
+            <TextHighlight> Generative AI</TextHighlight>. When I&apos;m not coding,
             I enjoy
             <TextHighlight> surfing YouTube</TextHighlight> for tech content and
             solving
