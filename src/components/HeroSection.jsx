@@ -35,12 +35,12 @@ const HeroSection = () => {
           transition={{ duration: 0.4, x: { type: "spring", bounce: 0.5 } }}
           className="col-span-8 flex flex-col items-center text-center md:text-left"
         >
-          <h1 className="mb-4 font-extrabold max-w-[90%] md:max-w-[80%] lg:max-w-[60%]">
+          <h1 className="mb-4 font-bold max-w-[90%] md:max-w-[80%] lg:max-w-100%]">
             <span className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl bg-clip-text bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 text-transparent">
               Hi there <span className="text-white">👋</span> I&apos;m{" "}
             </span>
             <br />
-            <span className="text-3xl md:text-4xl lg:text-6xl xl:text-7xl text-white">
+            <span className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white">
               <TypeAnimation
                 sequence={[
                   "Bhushan Nerkar",
@@ -212,9 +212,9 @@ const HeroSection = () => {
                 href="https://fb.com/nerkarbhushan.0"
                 target="_blank"
                 aria-label="facebook"
-                class="bg-gradient-to-br from-blue-600 via-blue-500 to-blue-400 px-1 py-1 rounded-full"
+                className="bg-gradient-to-br from-blue-600 via-blue-500 to-blue-400 px-1 py-1 rounded-full"
               >
-                <span class="block bg-white hover:bg-slate-400 rounded-full h-35 w-35">
+                <span className="block bg-white hover:bg-slate-400 rounded-full h-35 w-35">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="40"
@@ -232,9 +232,9 @@ const HeroSection = () => {
                 href="https://instagram.com/nerkarbhushan.4572"
                 target="_blank"
                 aria-label="instagram"
-                class="bg-gradient-to-br from-pink-500 via-purple-500 to-indigo-500 px-1 py-1 rounded-full"
+                className="bg-gradient-to-br from-pink-500 via-purple-500 to-indigo-500 px-1 py-1 rounded-full"
               >
-                <span class="block bg-white hover:bg-slate-400 rounded-full h-35 w-35">
+                <span className="block bg-white hover:bg-slate-400 rounded-full h-35 w-35">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="40"

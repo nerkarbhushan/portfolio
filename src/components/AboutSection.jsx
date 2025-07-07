@@ -40,27 +40,45 @@ const AboutSection = () => {
         >
           <div>
             I am a results-driven{" "}
-            <TextHighlight> Software Developer</TextHighlight> with expertise in
-            building and maintaining high-performance web applications. I am
-            proficient in{" "}
+            <TextHighlight>MERN Stack | Fullstack Developer</TextHighlight> with
+            3+ years of experience in building and deploying high-performance
+            web applications. Proficient in
             <TextHighlight>
-              HTML, CSS, JavaScript, React.js, Node.js, Express.js, MySQL,
+              {" "}
+              React.js, Node.js, Express.js, MongoDB, MySQL
+            </TextHighlight>
+            , and skilled in crafting
+            <TextHighlight>
+              {" "}
+              scalable, secure, and maintainable
             </TextHighlight>{" "}
-            and <TextHighlight>MongoDB</TextHighlight> focusing on creating{" "}
-            <TextHighlight>scalable, reliable,</TextHighlight> and{" "}
-            <TextHighlight>maintainable</TextHighlight> software solutions. My
-            passion for <TextHighlight>continuous learning</TextHighlight>{" "}
-            ensures I stay updated on the{" "}
-            <TextHighlight>latest technologies</TextHighlight> and contribute to
-            innovative projects that enhance business growth.
+            solutions.
           </div>
+
           <div>
-            When I&apos;m not coding, I love{" "}
-            <TextHighlight>Surfing YouTube</TextHighlight>, always looking for
-            content on learning new technologies like Gen AI, and system
-            customization. I also enjoy solving{" "}
-            <TextHighlight> problems, debugging them</TextHighlight> and
-            sometimes tackling <TextHighlight>leetcode problems</TextHighlight>.
+            Experienced with{" "}
+            <TextHighlight>RESTful & GraphQL APIs</TextHighlight>, real-time
+            apps using
+            <TextHighlight> Socket.io</TextHighlight>, and secure auth via{" "}
+            <TextHighlight> JWT & OAuth</TextHighlight>. I've worked with
+            <TextHighlight>
+              {" "}
+              microservices, Redis, Docker, Kubernetes, AWS
+            </TextHighlight>
+            , and CI/CD using
+            <TextHighlight> GitHub Actions & Jenkins</TextHighlight>.
+          </div>
+
+          <div>
+            Passionate about{" "}
+            <TextHighlight> problem-solving, debugging</TextHighlight>, and
+            exploring
+            <TextHighlight> emerging tech</TextHighlight> like{" "}
+            <TextHighlight> Generative AI</TextHighlight>. When I'm not coding,
+            I enjoy
+            <TextHighlight> surfing YouTube</TextHighlight> for tech content and
+            solving
+            <TextHighlight> LeetCode problems</TextHighlight>.
           </div>
         </motion.div>
       </div>
