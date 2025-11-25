@@ -1,6 +1,6 @@
 export const headerSummaryStats = [
   {
-    number: 3,
+    number: 4,
     text: "Years of Experience",
   },
   {
