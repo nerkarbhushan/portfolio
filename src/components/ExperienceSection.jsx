@@ -1,14 +1,15 @@
-'use client';
 
-import SectionHead from './SectionHead';
-import ExperienceContent from './ExperienceContent';
-import { experiences } from '@/config/experienceConfig';
+"use client";
+
+import SectionHead from "./SectionHead";
+import ExperienceContent from "./ExperienceContent";
+import { experiences } from "@/config/experienceConfig";
 
 const ExperienceSection = () => {
   return (
-    <section id='experience' className='scroll-mt-[80px]'>
+    <section id="experience" className="scroll-mt-[80px]">
       <SectionHead>My Experience</SectionHead>
-     <ol className="relative border-s border-gray-700 mx-auto w-full md:w-full lg:w-full">
+      <ol className="relative border-s border-gray-700 mx-auto w-full md:w-full lg:w-full">
         {experiences.map((e) => (
           <ExperienceContent
             key={e.id}
