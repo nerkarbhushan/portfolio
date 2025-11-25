@@ -9,15 +9,16 @@ import { motion } from "motion/react";
 const HeroSection = () => {
   return (
     <section className="min-h-[95vh] flex flex-col justify-evenly items-center">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 my-4 h-full items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 my-6 h-full items-center gap-6">
+        {/* IMAGE SECTION */}
         <motion.div
-          className="col-span-4 flex justify-center lg:order-1"
+          className="col-span-12 md:col-span-5 lg:col-span-4 flex justify-center lg:order-1"
           initial={{ opacity: 0, x: "100%" }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.4, x: { type: "spring", bounce: 0.5 } }}
         >
-          <div className="relative w-[200px] h-[200px] lg:w-[350px] lg:h-[350px] rounded-full overflow-hidden">
-            <div className="absolute w-[150px] h-[150px] lg:w-[250px] lg:h-[250px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 left-1/2 transform -translate-x-1/2 translate-y-1/3 rounded-full blur-[20px]"></div>
+          <div className="relative w-[200px] h-[200px] md:w-[260px] md:h-[260px] lg:w-[350px] lg:h-[350px] rounded-full overflow-hidden">
+            <div className="absolute w-[150px] h-[150px] md:w-[200px] md:h-[200px] lg:w-[250px] lg:h-[250px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 left-1/2 transform -translate-x-1/2 translate-y-1/3 rounded-full blur-[20px]"></div>
 
             <Image
               loading="eager"
@@ -25,29 +26,34 @@ const HeroSection = () => {
               width={540}
               src="/assets/bhushan_nerkar.webp"
               alt="bhushan_nerkar"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover w-full h-full rounded-full"
+              className="absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover w-full h-full rounded-full"
             />
           </div>
         </motion.div>
+
+        {/* TEXT SECTION */}
         <motion.div
           initial={{ opacity: 0, x: "-100%" }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.4, x: { type: "spring", bounce: 0.5 } }}
-          className="col-span-8 flex flex-col items-center text-center md:text-left"
+          className="col-span-12 md:col-span-7 lg:col-span-8 flex flex-col items-center md:items-start text-center md:text-left px-4"
         >
-          <h1 className="mb-4 font-bold max-w-[90%] md:max-w-[80%] lg:max-w-100%]">
+          {/* Heading */}
+          <h1 className="mb-4 font-semibold leading-tight">
             <span className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl bg-clip-text bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 text-transparent">
               Hi there <span className="text-white">👋</span> I&apos;m{" "}
             </span>
             <br />
-            <span className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white">
+
+            {/* Fixed width so layout doesn't shift */}
+            <span className="inline-block text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white min-w-[20ch]">
               <TypeAnimation
                 sequence={[
                   "Bhushan Nerkar",
                   3000,
-                  "MERN Developer",
-                  3000,
                   "Fullstack Developer",
+                  3000,
+                  "DevOps Engineer",
                   3000,
                 ]}
                 wrapper="span"
@@ -57,9 +63,12 @@ const HeroSection = () => {
             </span>
           </h1>
 
-          <p className="text-[#ADB7BE] text-base lg:text-lg xl:text-xl max-w-[90%] sm:max-w-[80%] md:max-w-[70%] lg:max-w-[60%] mb-6">
+          {/* Subtext */}
+          <p className="text-[#ADB7BE] text-base md:text-lg xl:text-xl max-w-[700px] mb-6">
             From frontend finesse to backend brilliance — crafting powerful
-            digital experiences that solve real-world challenges..!!
+            digital experiences that solve real-world challenges, with expertise
+            in DevOps, cloud, and seamless deployments for a fully integrated
+            solution.
           </p>
 
           <div className="flex flex-wrap justify-center gap-2">
