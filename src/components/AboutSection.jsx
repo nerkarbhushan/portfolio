@@ -18,12 +18,19 @@ const AboutSection = () => {
   }, [isInView, animationControl]);
 
   return (
-    <section id="about" className="text-white scroll-mt-[80px] min-h-[60vh]">
+    <section
+      id="about"
+      className="text-white scroll-mt-[80px] min-h-[60vh] leading-relaxed"
+    >
       <SectionHead>About Me</SectionHead>
-      <div className="flex flex-col-reverse justify-center gap-6 lg:flex-row">
-        <div className="h-[30vh] lg:h-auto lg:w-[40%]">
+
+      <div className="flex flex-col-reverse lg:flex-row justify-center gap-8 lg:gap-12">
+        {/* MODEL CANVAS */}
+        <div className="h-[30vh] lg:h-auto lg:w-[40%] flex justify-center">
           <PcModelCanvas />
         </div>
+
+        {/* ABOUT CONTENT */}
         <motion.div
           ref={ref}
           variants={{
@@ -36,49 +43,45 @@ const AboutSection = () => {
             duration: 0.5,
             x: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
           }}
-          className="lg:w-[60%] md:text-[1.35rem] text-justify"
+          className="lg:w-[60%] text-justify text-[0.95rem] sm:text-[1rem] md:text-[1.15rem] lg:text-[1.2rem] font-light space-y-6"
         >
           <div>
-            I am a results-driven{" "}
-            <TextHighlight>MERN Stack | Fullstack Developer</TextHighlight> with
-            3+ years of experience in building and deploying high-performance
-            web applications. Proficient in
+            <TextHighlight>Full Stack | MERN Stack Developer</TextHighlight>{" "}
+            with 3.5 years of experience building scalable and reliable web
+            applications. Skilled in{" "}
             <TextHighlight>
-              {" "}
-              React.js, Node.js, Express.js, MongoDB, MySQL
+              React.js, Node.js, Express.js, Python, FastAPI, and MongoDB
             </TextHighlight>
-            , and skilled in crafting
-            <TextHighlight>
-              {" "}
-              scalable, secure, and maintainable
-            </TextHighlight>{" "}
-            solutions.
+            , with strong expertise across frontend development, backend API
+            design, database structuring, and performance optimization.
           </div>
 
           <div>
-            Experienced with{" "}
-            <TextHighlight>RESTful & GraphQL APIs</TextHighlight>, real-time
-            apps using
-            <TextHighlight> Socket.io</TextHighlight>, and secure auth via{" "}
-            <TextHighlight> JWT & OAuth</TextHighlight>. I&apos;ve worked with
+            Experienced in <TextHighlight>RESTful & GraphQL APIs</TextHighlight>
+            , real-time systems, and secure authentication using{" "}
+            <TextHighlight>JWT & OAuth</TextHighlight>. Hands-on work with{" "}
             <TextHighlight>
-              {" "}
-              microservices, Redis, Docker, Kubernetes, AWS
+              microservices, Docker, Kubernetes, Redis, AWS, Azure
             </TextHighlight>
-            , and CI/CD using
-            <TextHighlight> GitHub Actions & Jenkins</TextHighlight>.
+            , and <TextHighlight>GitLab CI/CD</TextHighlight> for automated
+            deployments. Skilled in{" "}
+            <TextHighlight>
+              HashiCorp Vault, Apache Airflow, Harbor registry
+            </TextHighlight>
+            , and observability tools including{" "}
+            <TextHighlight>
+              Grafana, Splunk, PySpark, and Dynatrace
+            </TextHighlight>
+            .
           </div>
 
           <div>
-            Passionate about{" "}
-            <TextHighlight> problem-solving, debugging</TextHighlight>, and
-            exploring
-            <TextHighlight> emerging tech</TextHighlight> like{" "}
-            <TextHighlight> Generative AI</TextHighlight>. When I&apos;m not coding,
-            I enjoy
-            <TextHighlight> surfing YouTube</TextHighlight> for tech content and
-            solving
-            <TextHighlight> LeetCode problems</TextHighlight>.
+            I’m passionate about{" "}
+            <TextHighlight>clean architecture, automation</TextHighlight>, and
+            cloud-native development. Outside of work, I enjoy{" "}
+            <TextHighlight>exploring new technologies</TextHighlight>, learning
+            new tools, and sharpening my skills through{" "}
+            <TextHighlight>problem-solving & debugging</TextHighlight>.
           </div>
         </motion.div>
       </div>
