@@ -1,26 +1,49 @@
+
 export const experiences = [
   {
     id: 1,
     company: "Aligned Automation Pvt. Ltd · Full-time",
     logoAssetName: "aligned_logo",
     designation:
-      "Senior Solutions Engineer (Full Stack | MERN Stack Developer)",
+      "Senior Solutions Engineer (Full Stack | MERN Stack Developer + DevOps)",
     tenure: "April 2024 - Present",
-    location: "Pune, Maharashtra, India - Onsite",
+    location: "Pune, Maharashtra, India - Hybird",
     isCurrent: true,
     description: [
       "Promotion: Promoted from Solution Engineer to Senior Solutions Engineer in recognition of exceptional performance, leadership in full-stack development, and impactful contributions to high-priority projects.",
+
+      // ---------------------------
+      // Full Stack (Apr 2024 – Jul 2025)
+      // ---------------------------
+      "Full Stack | MERN Stack Responsibilities (Apr 2024 – Jul 2025):",
       "Developed dynamic, responsive full-stack web applications using the MERN stack (MongoDB, Express, React.js, Node.js), resulting in a 20% improvement in site load time and a 10% increase in user engagement.",
       "Managed complex application state management using Redux and Redux Toolkit, improving performance and reducing state-related bugs by 15%.",
-      "Utilized Redis for caching and session management, significantly enhancing app performance and scalability under high traffic conditions and reduce database load.",
+      "Utilized Redis for caching and session management, significantly enhancing app performance and scalability under high traffic conditions and reducing database load.",
       "Learning the Kafka-based event-driven microservices to ensure asynchronous and scalable communication between services.",
       "Implemented MongoDB sharding and replica sets for high availability and scalability.",
       "Worked with MongoDB clustering for load balancing and improved performance in production environments.",
       "Optimized MongoDB schemas and queries, reducing database query time by 10%.",
-      "Containerized applications using Docker, orchestrated multi-container setups using Kubernetes.",
-      "Learned CI/CD pipelines using GitHub Actions/Jenkins for automated testing, building, and deployment.",
+      "Containerized applications using Docker and orchestrated multi-container setups using Kubernetes.",
+      "Learned CI/CD pipelines using GitHub Actions and Jenkins for automated testing, building, and deployment.",
       "Integrated multiple payment gateways (e.g., Razorpay, PayPal) with secure transaction handling.",
       "Used Git/GitHub for version control and collaborated with team members using pull requests and code reviews.",
+      "",
+      "",
+
+      // ---------------------------
+      // DevOps (Aug 2025 – Present)
+      // ---------------------------
+      "DevOps Engineer Responsibilities (Aug 2025 – Present):",
+      "Promoted into the DevOps team, contributing to cloud infrastructure automation, CI/CD pipeline enhancement, and production monitoring workflows.",
+      "Built and maintained CI/CD pipelines using GitLab CI/CD, improving deployment speed and reliability across microservices.",
+      "Containerized services and managed orchestration through Kubernetes (workloads, deployments, services, config maps, secrets).",
+      "Worked with Docker, Harbor Registry, and container security policies for secure artifact management.",
+      "Configured and managed cloud infrastructure on AWS (EC2, S3, IAM, VPC, Load Balancers) and performed deployment automation.",
+      "Implemented secrets and credentials management using HashiCorp Vault with policies, AppRoles, and secure secret injection in pipelines.",
+      "Developed workflow automations using Apache Airflow for scheduled tasks and ETL-style pipelines.",
+      "Monitored system performance using Dynatrace, Grafana, and Splunk, enabling proactive issue detection and reducing downtime.",
+      "Supported microservices communication, scalability, and performance optimization within distributed systems.",
+      "Collaborated with cross-functional engineering teams to align DevOps best practices with development workflows.",
     ],
   },
   {
