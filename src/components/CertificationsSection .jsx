@@ -56,6 +56,13 @@ const CertificationsSection = () => {
           JavaScript, and React.js to create responsive and interactive user
           interfaces.
         </div>
+
+        <div>
+          <TextHighlight>GitLab CI/CD – Udemy</TextHighlight> <br />
+          Hands-on course covering GitLab pipelines, runners, stages, jobs, YAML
+          configuration, environment variables, artifact handling, and complete
+          end-to-end CI/CD automation workflows.
+        </div>
       </motion.div>
     </section>
   );
