@@ -44,14 +44,14 @@ const CertificationsSection = () => {
         </div>
 
         <div>
-          <TextHighlight>MERN Stack Developer</TextHighlight> <br />
+          <TextHighlight>MERN Stack Developer – Udemy</TextHighlight> <br />
           Completed a comprehensive course in MERN Stack technologies including
           MongoDB, Express.js, React.js, and Node.js to build end-to-end web
           applications.
         </div>
 
         <div>
-          <TextHighlight>Frontend Web Development</TextHighlight> <br />
+          <TextHighlight>Frontend Web Development – Udemy</TextHighlight> <br />
           Training in frontend development with a focus on HTML5, CSS,
           JavaScript, and React.js to create responsive and interactive user
           interfaces.
@@ -62,6 +62,14 @@ const CertificationsSection = () => {
           Hands-on course covering GitLab pipelines, runners, stages, jobs, YAML
           configuration, environment variables, artifact handling, and complete
           end-to-end CI/CD automation workflows.
+        </div>
+
+        <div>
+          <TextHighlight>Docker for Absolute Beginners – Udemy</TextHighlight>{" "}
+          <br />
+          Completed a hands-on certification covering Docker containers, images,
+          registries, core commands, and practical containerization workflows
+          used in DevOps and modern application deployments.
         </div>
       </motion.div>
     </section>
