@@ -12,15 +12,16 @@ export const navlinks = [
     path: "#experience",
   },
   {
-    name: "Projects",
-    path: "#projects",
-  },
-  {
     name: "Certifications",
     path: "#certifications",
+  },
+  {
+    name: "Projects",
+    path: "#projects",
   },
   {
     name: "Contact",
     path: "#contact",
   },
 ];
+
