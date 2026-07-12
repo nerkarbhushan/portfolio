@@ -74,7 +74,7 @@ const AboutSection = () => {
           </div>
 
           <div>
-            I'm passionate about{" "}
+            I&apos;m passionate about{" "}
             <TextHighlight>automation, cloud-native technologies</TextHighlight>
             , infrastructure as code, and building reliable deployment
             pipelines. I enjoy exploring new DevOps tools, optimizing workflows,

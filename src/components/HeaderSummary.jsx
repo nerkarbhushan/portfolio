@@ -11,7 +11,7 @@ const HeaderSummaryItem = ({ value, text }) => {
   useEffect(() => {
     const controls = animate(count, value, { duration: 2 });
     return () => controls.stop();
-  }, [value]);
+  }, [count, value]);
 
   return (
     <div className="flex flex-col items-center justify-center text-center p-4">
