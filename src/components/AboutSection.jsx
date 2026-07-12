@@ -68,7 +68,7 @@ const AboutSection = () => {
             </TextHighlight>
             . Skilled in monitoring and observability using{" "}
             <TextHighlight>
-              Grafana, Dynatrace, Splunk, and PySpark
+              Grafana, Dynatrace, Splunk, and PySpark{" "}
             </TextHighlight>
             to improve system performance and reliability.
           </div>

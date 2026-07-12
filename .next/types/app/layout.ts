@@ -1,4 +1,4 @@
-// File: D:\MyCode\my-portfolio\src\app\layout.js
+// File: D:\MyCode\practiceCoding\my git hub projects\DevOps-portfolio\portfolio\src\app\layout.js
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
