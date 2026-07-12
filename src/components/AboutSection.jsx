@@ -47,7 +47,7 @@ const AboutSection = () => {
         >
           <div>
             <TextHighlight>DevOps Engineer</TextHighlight> with approximately{" "}
-            <TextHighlight>1.5 years of hands-on experience</TextHighlight> in
+            <TextHighlight>2 years of hands-on experience</TextHighlight> in
             designing, implementing, and maintaining CI/CD pipelines,
             containerized applications, and cloud infrastructure. Skilled in{" "}
             <TextHighlight>

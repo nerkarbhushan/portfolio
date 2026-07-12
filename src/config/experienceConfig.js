@@ -6,7 +6,7 @@ export const experiences = [
     id: 1,
     company: "Aligned Automation Pvt. Ltd · Full-time",
     logoAssetName: "aligned_logo",
-    designation: "DevOps Engineer (Full Stack | MERN Stack Developer)",
+    designation: "DevOps Engineer (Senior Engineer)",
     tenure: "November 2024 – Present",
     location: "Pune, Maharashtra, India – Hybrid",
     isCurrent: true,
@@ -29,8 +29,7 @@ export const experiences = [
     id: 1,
     company: "Aligned Automation Pvt. Ltd · Full-time",
     logoAssetName: "aligned_logo",
-    designation:
-      "Senior Solutions Engineer (Full Stack | MERN Stack Developer)",
+    designation: "Full Stack | MERN Stack Developer (Engineer)",
     tenure: "April 2024 – November 2024",
     location: "Pune, Maharashtra, India – Hybrid",
     isCurrent: false,
