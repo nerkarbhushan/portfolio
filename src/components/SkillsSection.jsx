@@ -37,99 +37,89 @@ const SkillsSection = () => {
         }}
         className="font-light text-[0.95rem] sm:text-[1rem] md:text-[1.15rem] lg:text-[1.2rem] text-justify space-y-8"
       >
-        {/* Frontend */}
+        {/* DevOps */}
         <div>
-          <TextHighlight>Frontend Technologies</TextHighlight>
+          <TextHighlight>DevOps, Deployment & Cloud</TextHighlight>
           <ul className="list-disc list-inside pl-4 space-y-2">
             <li>
-              <TextHighlight>Languages & Frameworks</TextHighlight> – HTML, CSS,
-              JavaScript, React.js
+              <TextHighlight>CI/CD</TextHighlight> – GitLab CI/CD, Jenkins,
+              GitHub Actions
             </li>
             <li>
-              <TextHighlight>Styling & UI Libraries</TextHighlight> – Tailwind
-              CSS, Bootstrap
+              <TextHighlight>Containerization</TextHighlight> – Docker
             </li>
             <li>
-              <TextHighlight>State Management</TextHighlight> – Redux, Redux
-              Toolkit, Context API
+              <TextHighlight>Container Orchestration</TextHighlight> –
+              Kubernetes (Pods, Deployments, Services, Ingress)
+            </li>
+            <li>
+              <TextHighlight>Cloud Services</TextHighlight> – AWS (EC2, S3, IAM,
+              VPC, Load Balancer)
+            </li>
+            <li>
+              <TextHighlight>Monitoring & Observability</TextHighlight> –
+              Grafana, Dynatrace, Splunk
+            </li>
+            <li>
+              <TextHighlight>Secrets Management</TextHighlight> – HashiCorp
+              Vault
+            </li>
+            <li>
+              <TextHighlight>Workflow Automation</TextHighlight> – Apache
+              Airflow
+            </li>
+            <li>
+              <TextHighlight>Artifact Management</TextHighlight> – Harbor
+              Registry
             </li>
           </ul>
         </div>
 
-        {/* Backend */}
+        {/* Infrastructure */}
         <div>
-          <TextHighlight>Backend Technologies</TextHighlight>
+          <TextHighlight>Infrastructure & Scripting</TextHighlight>
           <ul className="list-disc list-inside pl-4 space-y-2">
             <li>
-              <TextHighlight>Server & API Development</TextHighlight> – Node.js,
-              Express.js, Python, FastAPI, RESTful APIs, GraphQL, Socket.io
+              <TextHighlight>Operating System</TextHighlight> – Linux
             </li>
             <li>
-              <TextHighlight>Architecture</TextHighlight> – Microservices,
-              Event-Driven (Kafka)
+              <TextHighlight>Scripting</TextHighlight> – Bash (Shell Scripting)
             </li>
             <li>
-              <TextHighlight>Authentication & Security</TextHighlight> –
-              Cookies, Refresh Tokens, JWT, OAuth
-            </li>
-            <li>
-              <TextHighlight>Caching & Performance</TextHighlight> – Redis
-              (caching, pub/sub), In-memory optimization
-            </li>
-            <li>
-              <TextHighlight>Third-Party Integrations</TextHighlight> – Payment
-              Gateways (PayPal, etc.)
+              <TextHighlight>Configuration</TextHighlight> – YAML, JSON
             </li>
           </ul>
         </div>
 
-        {/* Database */}
+        {/* Databases */}
         <div>
           <TextHighlight>Databases</TextHighlight>
           <ul className="list-disc list-inside pl-4 space-y-2">
             <li>
               <TextHighlight>Relational</TextHighlight> – MySQL, PostgreSQL
             </li>
-            <li>
-              <TextHighlight>NoSQL</TextHighlight> – MongoDB
-            </li>
           </ul>
         </div>
 
-        {/* DevOps */}
+        {/* Programming */}
         <div>
-          <TextHighlight>DevOps, Deployment & Cloud</TextHighlight>
+          <TextHighlight>Programming (Supporting Skills)</TextHighlight>
           <ul className="list-disc list-inside pl-4 space-y-2">
             <li>
-              <TextHighlight>Containerization & Orchestration</TextHighlight> –
-              Docker, Kubernetes
+              <TextHighlight>Languages</TextHighlight> – Python, Node.js,
+              JavaScript
             </li>
             <li>
-              <TextHighlight>Cloud Services</TextHighlight> – AWS (EC2, S3, IAM)
+              <TextHighlight>Frameworks</TextHighlight> – React.js
             </li>
             <li>
-              <TextHighlight>CI/CD Pipelines</TextHighlight> – GitLab CI/CD,
-              GitHub Actions, Jenkins
-            </li>
-            <li>
-              <TextHighlight>Monitoring & Observability</TextHighlight> –
-              Dynatrace, Grafana, Splunk
-            </li>
-            <li>
-              <TextHighlight>Secrets & Registry Management</TextHighlight> –
-              HashiCorp Vault, Harbor Registry
-            </li>
-            <li>
-              <TextHighlight>Workflow Orchestration</TextHighlight> – Apache
-              Airflow
-            </li>
-            <li>
-              <TextHighlight>API Testing & Debugging</TextHighlight> – Postman
+              <TextHighlight>Backend Concepts</TextHighlight> – REST APIs,
+              Microservices Architecture
             </li>
           </ul>
         </div>
 
-        {/* Git */}
+        {/* Version Control */}
         <div>
           <TextHighlight>Version Control</TextHighlight>
           <ul className="list-disc list-inside pl-4">

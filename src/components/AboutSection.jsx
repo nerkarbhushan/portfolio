@@ -46,42 +46,40 @@ const AboutSection = () => {
           className="lg:w-[60%] text-justify text-[0.95rem] sm:text-[1rem] md:text-[1.15rem] lg:text-[1.2rem] font-light space-y-6"
         >
           <div>
-            <TextHighlight>Full Stack | MERN Stack Developer</TextHighlight>{" "}
-            with 3.5 years of experience building scalable and reliable web
-            applications. Skilled in{" "}
+            <TextHighlight>DevOps Engineer</TextHighlight> with approximately{" "}
+            <TextHighlight>1.5 years of hands-on experience</TextHighlight> in
+            designing, implementing, and maintaining CI/CD pipelines,
+            containerized applications, and cloud infrastructure. Skilled in{" "}
             <TextHighlight>
-              React.js, Node.js, Express.js, Python, FastAPI, and MongoDB
+              Docker, Kubernetes, GitLab CI/CD, AWS (EC2, S3, IAM, VPC), and
+              Linux
             </TextHighlight>
-            , with strong expertise across frontend development, backend API
-            design, database structuring, and performance optimization.
+            , with expertise in deployment automation, infrastructure
+            management, and improving application reliability and scalability.
           </div>
 
           <div>
-            Experienced in <TextHighlight>RESTful & GraphQL APIs</TextHighlight>
-            , real-time systems, and secure authentication using{" "}
-            <TextHighlight>JWT & OAuth</TextHighlight>. Hands-on work with{" "}
+            Experienced in automating deployments, managing{" "}
+            <TextHighlight>microservices architectures</TextHighlight>, and
+            implementing secure deployment workflows. Hands-on experience with{" "}
             <TextHighlight>
-              microservices, Docker, Kubernetes, Redis, AWS, Azure
+              Docker, Kubernetes, GitLab CI/CD, AWS, HashiCorp Vault, Harbor,
+              Redis, and Apache Airflow
             </TextHighlight>
-            , and <TextHighlight>GitLab CI/CD</TextHighlight> for automated
-            deployments. Skilled in{" "}
+            . Skilled in monitoring and observability using{" "}
             <TextHighlight>
-              HashiCorp Vault, Apache Airflow, Harbor registry
+              Grafana, Dynatrace, Splunk, and PySpark
             </TextHighlight>
-            , and observability tools including{" "}
-            <TextHighlight>
-              Grafana, Splunk, PySpark, and Dynatrace
-            </TextHighlight>
-            .
+            to improve system performance and reliability.
           </div>
 
           <div>
-            I’m passionate about{" "}
-            <TextHighlight>clean architecture, automation</TextHighlight>, and
-            cloud-native development. Outside of work, I enjoy{" "}
-            <TextHighlight>exploring new technologies</TextHighlight>, learning
-            new tools, and sharpening my skills through{" "}
-            <TextHighlight>problem-solving & debugging</TextHighlight>.
+            I'm passionate about{" "}
+            <TextHighlight>automation, cloud-native technologies</TextHighlight>
+            , infrastructure as code, and building reliable deployment
+            pipelines. I enjoy exploring new DevOps tools, optimizing workflows,
+            and continuously improving system scalability, security, and
+            operational efficiency.
           </div>
         </motion.div>
       </div>

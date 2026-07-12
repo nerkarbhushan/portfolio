@@ -65,10 +65,11 @@ const HeroSection = () => {
 
           {/* Subtext */}
           <p className="text-[#ADB7BE] text-base md:text-lg xl:text-xl max-w-[700px] mb-6">
-            From frontend finesse to backend brilliance — crafting powerful
-            digital experiences that solve real-world challenges, with expertise
-            in DevOps, cloud, and seamless deployments for a fully integrated
-            solution.
+            DevOps Engineer specializing in CI/CD automation, containerization,
+            Kubernetes, cloud infrastructure, and deployment pipelines.
+            Passionate about building scalable, secure, and highly available
+            systems while streamlining software delivery through automation and
+            modern DevOps practices.
           </p>
 
           <div className="flex flex-wrap justify-center gap-2">
